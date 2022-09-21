@@ -10,15 +10,14 @@ int main()
         scanf("%d",&arr[i]);
 
     }
-    int arr1[n*2];
+    int arr1[n*2]; 
+    
     int a;
     for (int i = 0; i < n; i++) {
         arr1[i*2]=arr[i]/10;
-    }
-        for (int i = 0; i < n; i++) {
         arr1[i*2+1]=arr[i]%10;
     }
-    for (int j = 0; j < sizeof(arr1)/4 -1; j++) {
+      for (int j = 0; j < sizeof(arr1)/4 -1; j++) {
         
         for (int i = 0; i < sizeof(arr1)/4 -1; i++) {
             if(arr1[i]<arr1[i+1]){
