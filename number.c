@@ -3,7 +3,7 @@
 int main()
 {
     int num = 0;
-    int arr[3] = {12, 34, 56};
+    int arr[4] = {12,34,56,9};
     int arr1[sizeof(arr) / 4];
     for (int i = 0; i < sizeof(arr) / 4 - 1; i++) // sorting the initial array
     {
